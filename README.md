@@ -1,3 +1,5 @@
+This script runs in QGIS
+
 This takes in a DEM and other layers to automatically detect where there are waterfalls
 
 It asks for a rainfall raster, to help understand where there would be more water, and therefore a better waterfall
