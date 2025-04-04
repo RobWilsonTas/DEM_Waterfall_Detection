@@ -12,4 +12,4 @@ The process involves adding iterations of noise to the DEM, then calculating whe
 
 In areas of significant flow accumulation it calculates how much the flow drops in elevation
 
-Any spots where there are both significant flow and significant elevation drop are marked as waterfall points
+Any spots where there is both significant flow and significant elevation drop are marked as waterfall points
