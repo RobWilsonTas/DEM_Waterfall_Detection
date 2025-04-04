@@ -6,8 +6,10 @@ It asks for a rainfall raster, to help understand where there would be more wate
 
 It also asks for a road and a streams layer. These are used to estimate where there might be a culvert, allowing water to flow across the DEM in a realistic way, instead of getting stuck in table drains
 
-________________________________
+_____________
 
-This is only a new script, I haven't tested it much
+The process involves adding iterations of noise to the DEM, then calculating where the flow accumulation is
 
-Any issues let me know
+In areas of significant flow accumulation it calculates how much the flow drops in elevation
+
+Any spots where there are both significant flow and significant elevation drop are marked as waterfall points
